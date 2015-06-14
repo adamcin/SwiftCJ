@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Mark Adamcin" => "adamcin@gmail.com" }
   s.source       = { :git => "https://github.com/adamcin/SwiftCJ.git", :tag => "SwiftCJ-0.1.0" }
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
 
   s.source_files = 'SwiftCJ/*.swift'
 
