@@ -6,7 +6,7 @@ import SwiftCJ
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
-        describe("these will fail") {
+        xdescribe("these will fail") {
 
             it("can do maths") {
                 expect(1) == 2
