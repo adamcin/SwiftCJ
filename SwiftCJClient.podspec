@@ -12,13 +12,14 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SwiftCJClient/*.swift'
 
+  s.weak_frameworks = "Foundation", "Security"
+
+  s.requires_arc = true
+
   s.dependency 'SwiftCJ'
 
   s.dependency 'BrightFutures', '~> 2.0.0-beta.1'
 
-  s.dependency 'AFNetworking', '~> 2.5.4'
+  s.dependency 'AFNetworking', '~> 2.0'
 
-  s.weak_frameworks = "Foundation", "Security"
-
-  s.requires_arc = true
 end
