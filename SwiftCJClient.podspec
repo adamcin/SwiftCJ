@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SwiftCJClient/*.swift'
 
-  s.dependency 'SwiftCJ', '~> 0.1.0'
+  s.dependency 'SwiftCJ'
 
   s.dependency 'BrightFutures', '~> 2.0.0-beta.1'
 
