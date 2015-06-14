@@ -1,6 +1,6 @@
 # SwiftCJ
 
-[![CI Status](http://img.shields.io/travis/Mark Adamcin/SwiftCJ.svg?style=flat)](https://travis-ci.org/Mark Adamcin/SwiftCJ)
+[![CI Status](http://img.shields.io/travis/adamcin/SwiftCJ.svg?style=flat)](https://travis-ci.org/adamcin/SwiftCJ)
 [![Version](https://img.shields.io/cocoapods/v/SwiftCJ.svg?style=flat)](http://cocoapods.org/pods/SwiftCJ)
 [![License](https://img.shields.io/cocoapods/l/SwiftCJ.svg?style=flat)](http://cocoapods.org/pods/SwiftCJ)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftCJ.svg?style=flat)](http://cocoapods.org/pods/SwiftCJ)
@@ -22,7 +22,7 @@ pod "SwiftCJ"
 
 ## Author
 
-Mark Adamcin, mark.adamcin@intel.com
+Mark Adamcin, adamcin@gmail.com
 
 ## License
 

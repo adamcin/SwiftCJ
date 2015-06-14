@@ -1,38 +1,23 @@
-#
-# Be sure to run `pod lib lint SwiftCJ.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "SwiftCJ"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SwiftCJ."
+  s.summary          = "A Collection+JSON parser for Swift."
   s.description      = <<-DESC
-                       An optional longer description of SwiftCJ
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A simple set of classes to parse the JSON response to a Collection+JSON call into simple objects, ported from Collection-JSON-ObjC
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SwiftCJ"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/adamcin/SwiftCJ"
   s.license          = 'MIT'
-  s.author           = { "Mark Adamcin" => "mark.adamcin@intel.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SwiftCJ.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Mark Adamcin" => "adamcin@gmail.com" }
+  s.source           = { :git => "https://github.com/adamcin/SwiftCJ.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/MarkAdamcin'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/SwiftCJ/**/*'
   s.resource_bundles = {
-    'SwiftCJ' => ['Pod/Assets/*.png']
+    'SwiftCJ' => ['Pod/Assets/SwiftCJ/**/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'Foundation'
 end
