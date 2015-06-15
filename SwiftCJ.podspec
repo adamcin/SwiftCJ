@@ -1,6 +1,14 @@
+
 Pod::Spec.new do |s|
   s.name             = "SwiftCJ"
-  s.version          = "0.1.0"
+
+  if ENV["TRAVIS"]
+    s.version          = "0.1.0.#{ENV['TRAVIS_BUILD_NUMBER']}"
+    puts "#{s.version}"
+  else
+    s.version          = "0.1.0"
+  end
+
   s.summary          = "A Collection+JSON parser for Swift."
   s.description      = <<-DESC
                        A simple set of classes to parse the JSON response to a Collection+JSON call into simple objects, ported from Collection-JSON-ObjC
