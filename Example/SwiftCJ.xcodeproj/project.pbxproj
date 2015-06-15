@@ -9,16 +9,21 @@
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		68434C389A875E089201E3FC /* Pods_SwiftCJ_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87B1B9D4A1D420BE7F302F5 /* Pods_SwiftCJ_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		AEF058DF1B2F3BC000B7CFEB /* SwiftCJClient.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AEF058DE1B2F3BC000B7CFEB /* SwiftCJClient.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A26275D8D121F50169DD7A9 /* Pods-SwiftCJClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCJClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCJClient/Pods-SwiftCJClient.debug.xcconfig"; sourceTree = "<group>"; };
 		4E90DD15358AA461A724BB06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		53B4C14B116F120B7722F512 /* SwiftCJ.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftCJ.podspec; path = ../SwiftCJ.podspec; sourceTree = "<group>"; };
+		5E6F3BF7500702B493AED19C /* Pods_SwiftCJClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCJClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* SwiftCJ_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCJ_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62EFA39C179660975DBD1DB9 /* Pods-SwiftCJ_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCJ_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCJ_Tests/Pods-SwiftCJ_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		836FC30021CBCACA9A22715E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AEF058DE1B2F3BC000B7CFEB /* SwiftCJClient.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SwiftCJClient.podspec; path = ../SwiftCJClient.podspec; sourceTree = "<group>"; };
+		B654284444A20E9D88F79415 /* Pods-SwiftCJClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCJClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCJClient/Pods-SwiftCJClient.release.xcconfig"; sourceTree = "<group>"; };
 		C2A212E8BF10321E2A49BF9E /* Pods-SwiftCJ_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCJ_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCJ_Tests/Pods-SwiftCJ_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E87B1B9D4A1D420BE7F302F5 /* Pods_SwiftCJ_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCJ_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -40,6 +45,8 @@
 			children = (
 				C2A212E8BF10321E2A49BF9E /* Pods-SwiftCJ_Tests.debug.xcconfig */,
 				62EFA39C179660975DBD1DB9 /* Pods-SwiftCJ_Tests.release.xcconfig */,
+				3A26275D8D121F50169DD7A9 /* Pods-SwiftCJClient.debug.xcconfig */,
+				B654284444A20E9D88F79415 /* Pods-SwiftCJClient.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -86,6 +93,7 @@
 				53B4C14B116F120B7722F512 /* SwiftCJ.podspec */,
 				836FC30021CBCACA9A22715E /* README.md */,
 				4E90DD15358AA461A724BB06 /* LICENSE */,
+				AEF058DE1B2F3BC000B7CFEB /* SwiftCJClient.podspec */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -94,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				E87B1B9D4A1D420BE7F302F5 /* Pods_SwiftCJ_Tests.framework */,
+				5E6F3BF7500702B493AED19C /* Pods_SwiftCJClient.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF058DF1B2F3BC000B7CFEB /* SwiftCJClient.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

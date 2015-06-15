@@ -10,10 +10,7 @@ podfile: Example/Podfile
 before_install:
   - gem install cocoapods -v '0.37.2' # Since Travis is not always on latest version
   - pod install --project-directory=Example
-install:
-  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-# - set -o pipefail && xcodebuild test -workspace Example/SwiftCJ.xcworkspace -scheme SwiftCJ-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
   - xctool clean build -workspace Example/SwiftCJ.xcworkspace -scheme SwiftCJ-Example -destination 'platform=iOS Simulator,name=iPhone 6'
   - xctool test -workspace Example/SwiftCJ.xcworkspace -scheme SwiftCJ-Example  -destination 'platform=iOS Simulator,name=iPhone 6' -sdk iphonesimulator
   - pod lib lint --quick
