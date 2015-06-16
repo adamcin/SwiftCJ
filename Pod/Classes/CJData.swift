@@ -1,9 +1,9 @@
 import Foundation
 
 public struct CJData {
-    let elems: [CJDataElem]
-    let dict: [String: AnyObject]
-    let prompts: [String: String]
+    public let elems: [CJDataElem]
+    public let dict: [String: AnyObject]
+    public let prompts: [String: String]
     
     public init(elems: [CJDataElem]) {
         self.elems = elems

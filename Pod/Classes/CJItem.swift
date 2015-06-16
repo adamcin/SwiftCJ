@@ -2,10 +2,10 @@ import Foundation
 
 public struct CJItem {
     
-    let href: NSURL?
-    let links: CJLinks?
-    let data: CJData?
-    let other: [NSObject: AnyObject]
+    public let href: NSURL?
+    public let links: CJLinks?
+    public let data: CJData?
+    public let other: [NSObject: AnyObject]
     
     static func itemForDictionary(dict: [NSObject: AnyObject]) -> CJItem {
         var mDict = dict

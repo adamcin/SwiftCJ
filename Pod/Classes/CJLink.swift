@@ -2,11 +2,11 @@ import Foundation
 
 public struct CJLink {
     
-    let href: NSURL
-    let rel: String
-    let render: CJRender
-    let prompt: String?
-    let other: [String: String]
+    public let href: NSURL
+    public let rel: String
+    public let render: CJRender
+    public let prompt: String?
+    public let other: [String: String]
     
     public init(href: NSURL, rel: String, render: CJRender, prompt: String?, other: [String: String]?) {
         self.href = href

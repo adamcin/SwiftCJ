@@ -1,9 +1,9 @@
 import Foundation
 
 public struct CJDataElem {
-    let name: String
-    let prompt: String?
-    let value: AnyObject?
+    public let name: String
+    public let prompt: String?
+    public let value: AnyObject?
     
     func copyAndSet(value: AnyObject?) -> CJDataElem {
         if value == nil {

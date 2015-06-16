@@ -1,14 +1,14 @@
 import Foundation
 
 public class CJCollection {
-    let href: NSURL
-    let httpCode: Int?
-    let version: String
-    let links: CJLinks?
-    let error: CJError?
-    let queries: CJQueries?
-    let template: CJTemplate?
-    let items: [CJItem]
+    public let href: NSURL
+    public let httpCode: Int?
+    public let version: String
+    public let links: CJLinks?
+    public let error: CJError?
+    public let queries: CJQueries?
+    public let template: CJTemplate?
+    public let items: [CJItem]
     
     public init(href: NSURL, version: String?, links: CJLinks?, error: CJError?, queries: CJQueries?, template: CJTemplate?, items: [CJItem], httpCode: Int? = nil) {
         self.href = href
@@ -21,7 +21,7 @@ public class CJCollection {
         self.httpCode = httpCode
     }
     
-    class func collectionForDictionary(dict: [NSObject: AnyObject], httpCode: Int? = nil) -> CJCollection? {
+    public class func collectionForDictionary(dict: [NSObject: AnyObject], httpCode: Int? = nil) -> CJCollection? {
         if let collectionDict = dict["collection"] as? [NSObject: AnyObject] {
             if let hrefString = collectionDict["href"] as? String {
                 if let href = NSURL(string: hrefString) {
@@ -38,7 +38,7 @@ public class CJCollection {
         return nil
     }
     
-    class func collectionForNSData(data: NSData!, error: NSErrorPointer, httpCode: Int? = nil) -> CJCollection? {
+    public class func collectionForNSData(data: NSData!, error: NSErrorPointer, httpCode: Int? = nil) -> CJCollection? {
         var internalError: NSError?
         var jsonObj: AnyObject? = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.allZeros, error: &internalError)
         if let json = jsonObj as? [NSObject: AnyObject] {

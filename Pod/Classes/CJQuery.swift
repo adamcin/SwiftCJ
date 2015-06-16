@@ -1,11 +1,11 @@
 import Foundation
 
 public struct CJQuery {
-    let href: NSURL
-    let rel: String
-    let name: String?
-    let prompt: String?
-    let data: CJData?
+    public let href: NSURL
+    public let rel: String
+    public let name: String?
+    public let prompt: String?
+    public let data: CJData?
     
     func forDict(dict: [String: AnyObject]) -> CJQuery {
         return CJQuery(href: self.href, rel: self.rel, name: self.name, prompt: self.prompt, data: self.data?.copyAndSetAll(dict))

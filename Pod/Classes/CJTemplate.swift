@@ -1,7 +1,7 @@
 import Foundation
 
 public class CJTemplate {
-    let data: CJData
+    public let data: CJData
     
     public init(data: CJData) {
         self.data = data

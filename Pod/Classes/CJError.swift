@@ -1,9 +1,9 @@
 import Foundation
 
 public struct CJError {
-    let title: String?
-    let code: String?
-    let message: String?
+    public let title: String?
+    public let code: String?
+    public let message: String?
 
     static func errorForDictionary(dict: [NSObject: AnyObject]) -> CJError? {
         if let errorDict = dict["error"] as? [NSObject: AnyObject] {

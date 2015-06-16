@@ -2,8 +2,8 @@ import Foundation
 
 public struct CJQueries {
 
-    let firstByRel: [String: CJQuery]
-    let allByRel: [String: [CJQuery]]
+    public let firstByRel: [String: CJQuery]
+    public let allByRel: [String: [CJQuery]]
 
     static func queriesForDictionary(dict: [NSObject: AnyObject]) -> CJQueries? {
         if let queriesArray = dict["queries"] as? [AnyObject] {
