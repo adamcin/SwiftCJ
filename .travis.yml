@@ -20,4 +20,4 @@ after_success:
   - ssh-add .travis/deploy_key.pem
   - git clone git@github.com:adamcin/CocoaPods-Specs.git ./deploy-specs
   - pod repo push ./deploy-specs SwiftCJ.podspec
-  - cd ./deploy-specs && git push
+  - cd ./deploy-specs && git status
