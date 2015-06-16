@@ -1,14 +1,9 @@
 import Foundation
 
-struct CJLinks {
+public struct CJLinks {
     
     let firstByRel: [String: CJLink]
     let allByRel: [String: [CJLink]]
-    
-    init(firstByRel: [String: CJLink], allByRel: [String: [CJLink]]) {
-        self.firstByRel = firstByRel
-        self.allByRel = allByRel
-    }
     
     static func linksForDictionary(dict: [NSObject: AnyObject]) -> CJLinks? {
         if let linkObjs = dict["links"] as? [AnyObject] {

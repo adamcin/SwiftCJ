@@ -1,15 +1,10 @@
 import Foundation
 
-struct CJQueries {
+public struct CJQueries {
 
     let firstByRel: [String: CJQuery]
     let allByRel: [String: [CJQuery]]
-    
-    init(firstByRel: [String: CJQuery], allByRel: [String: [CJQuery]]) {
-        self.firstByRel = firstByRel
-        self.allByRel = allByRel
-    }
-    
+
     static func queriesForDictionary(dict: [NSObject: AnyObject]) -> CJQueries? {
         if let queriesArray = dict["queries"] as? [AnyObject] {
             var firstByRel = [String: CJQuery]()

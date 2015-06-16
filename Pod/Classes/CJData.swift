@@ -1,11 +1,11 @@
 import Foundation
 
-struct CJData {
+public struct CJData {
     let elems: [CJDataElem]
     let dict: [String: AnyObject]
     let prompts: [String: String]
     
-    init(elems: [CJDataElem]) {
+    public init(elems: [CJDataElem]) {
         self.elems = elems
         var dict = [String: AnyObject]()
         var prompts = [String: String]()

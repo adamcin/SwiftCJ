@@ -1,18 +1,11 @@
 import Foundation
 
-struct CJItem {
+public struct CJItem {
     
     let href: NSURL?
     let links: CJLinks?
     let data: CJData?
     let other: [NSObject: AnyObject]
-    
-    init(href: NSURL?, links: CJLinks?, data: CJData?, other: [NSObject: AnyObject]) {
-        self.href = href
-        self.links = links
-        self.data = data
-        self.other = other
-    }
     
     static func itemForDictionary(dict: [NSObject: AnyObject]) -> CJItem {
         var mDict = dict

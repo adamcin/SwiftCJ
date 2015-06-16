@@ -1,6 +1,6 @@
 import Foundation
 
-enum CJRender : String {
+public enum CJRender : String {
     case LINK = "link"
     case IMAGE = "image"
 }

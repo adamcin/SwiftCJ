@@ -1,6 +1,6 @@
 import Foundation
 
-struct CJLink {
+public struct CJLink {
     
     let href: NSURL
     let rel: String
@@ -8,7 +8,7 @@ struct CJLink {
     let prompt: String?
     let other: [String: String]
     
-    init(href: NSURL, rel: String, render: CJRender, prompt: String?, other: [String: String]?) {
+    public init(href: NSURL, rel: String, render: CJRender, prompt: String?, other: [String: String]?) {
         self.href = href
         self.rel = rel
         self.render = render

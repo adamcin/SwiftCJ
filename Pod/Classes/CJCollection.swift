@@ -1,6 +1,6 @@
 import Foundation
 
-class CJCollection {
+public class CJCollection {
     let href: NSURL
     let httpCode: Int?
     let version: String
@@ -10,7 +10,7 @@ class CJCollection {
     let template: CJTemplate?
     let items: [CJItem]
     
-    init(href: NSURL, version: String?, links: CJLinks?, error: CJError?, queries: CJQueries?, template: CJTemplate?, items: [CJItem], httpCode: Int? = nil) {
+    public init(href: NSURL, version: String?, links: CJLinks?, error: CJError?, queries: CJQueries?, template: CJTemplate?, items: [CJItem], httpCode: Int? = nil) {
         self.href = href
         self.version = version ?? "1.0"
         self.links = links

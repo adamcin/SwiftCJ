@@ -1,15 +1,9 @@
 import Foundation
 
-struct CJDataElem {
+public struct CJDataElem {
     let name: String
     let prompt: String?
     let value: AnyObject?
-    
-    init(name: String, prompt: String?, value: AnyObject?) {
-        self.name = name
-        self.prompt = prompt
-        self.value = value
-    }
     
     func copyAndSet(value: AnyObject?) -> CJDataElem {
         if value == nil {
