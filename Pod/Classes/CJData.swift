@@ -21,7 +21,7 @@ public struct CJData {
         self.prompts = prompts
     }
     
-    static func fromDict(dict: [NSObject: AnyObject]) -> CJData {
+    public static func fromDict(dict: [NSObject: AnyObject]) -> CJData {
         var elems = [CJDataElem]()
         for (key, value) in dict {
             if let k = key as? String {

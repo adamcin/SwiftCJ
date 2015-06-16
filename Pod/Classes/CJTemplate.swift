@@ -16,7 +16,7 @@ public class CJTemplate {
         return nil
     }
     
-    func toSeri() -> [String: [String: [[String: AnyObject]]]] {
+    public func toSeri() -> [String: [String: [[String: AnyObject]]]] {
         return [
             "template": self.data.toSeri()
         ]
