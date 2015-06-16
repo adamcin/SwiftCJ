@@ -19,4 +19,4 @@ after_success:
   - chmod 600 .travis/deploy_key.pem # this key should have push access
   - ssh-add .travis/deploy_key.pem
   - pod repo add adamcin-specs git@github.com:adamcin/CocoaPods-Specs.git
-  - pod repo push adamcin-specs SwiftCJ.podspec
+  - pod repo push --verbose adamcin-specs SwiftCJ.podspec
