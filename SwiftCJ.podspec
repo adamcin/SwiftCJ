@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   if ENV["TRAVIS_BUILD_ID"]
     puts "TRAVIS_BUILD_ID=#{ENV['TRAVIS_BUILD_ID']}"
-  else
+  end
 
   s.version          = "0.1.0"
   s.summary          = "A Collection+JSON parser for Swift."
