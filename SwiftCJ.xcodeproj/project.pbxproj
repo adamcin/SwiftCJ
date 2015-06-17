@@ -9,28 +9,28 @@
 /* Begin PBXBuildFile section */
 		AEF059141B3201F700B7CFEB /* SwiftCJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF059081B3201F700B7CFEB /* SwiftCJ.framework */; };
 		AEF0591B1B3201F700B7CFEB /* SwiftCJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0591A1B3201F700B7CFEB /* SwiftCJTests.swift */; };
-		AEF0592F1B32044600B7CFEB /* CJCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059241B32044600B7CFEB /* CJCollection.swift */; };
-		AEF059301B32044600B7CFEB /* CJCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059241B32044600B7CFEB /* CJCollection.swift */; };
-		AEF059311B32044600B7CFEB /* CJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059251B32044600B7CFEB /* CJData.swift */; };
-		AEF059321B32044600B7CFEB /* CJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059251B32044600B7CFEB /* CJData.swift */; };
-		AEF059331B32044600B7CFEB /* CJDataElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059261B32044600B7CFEB /* CJDataElem.swift */; };
-		AEF059341B32044600B7CFEB /* CJDataElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059261B32044600B7CFEB /* CJDataElem.swift */; };
-		AEF059351B32044600B7CFEB /* CJError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059271B32044600B7CFEB /* CJError.swift */; };
-		AEF059361B32044600B7CFEB /* CJError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059271B32044600B7CFEB /* CJError.swift */; };
-		AEF059371B32044600B7CFEB /* CJItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059281B32044600B7CFEB /* CJItem.swift */; };
-		AEF059381B32044600B7CFEB /* CJItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059281B32044600B7CFEB /* CJItem.swift */; };
-		AEF059391B32044600B7CFEB /* CJLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059291B32044600B7CFEB /* CJLink.swift */; };
-		AEF0593A1B32044600B7CFEB /* CJLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059291B32044600B7CFEB /* CJLink.swift */; };
-		AEF0593B1B32044600B7CFEB /* CJLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592A1B32044600B7CFEB /* CJLinks.swift */; };
-		AEF0593C1B32044600B7CFEB /* CJLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592A1B32044600B7CFEB /* CJLinks.swift */; };
-		AEF0593D1B32044600B7CFEB /* CJQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592B1B32044600B7CFEB /* CJQueries.swift */; };
-		AEF0593E1B32044600B7CFEB /* CJQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592B1B32044600B7CFEB /* CJQueries.swift */; };
-		AEF0593F1B32044600B7CFEB /* CJQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592C1B32044600B7CFEB /* CJQuery.swift */; };
-		AEF059401B32044600B7CFEB /* CJQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592C1B32044600B7CFEB /* CJQuery.swift */; };
-		AEF059411B32044600B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592D1B32044600B7CFEB /* CJRender.swift */; };
-		AEF059421B32044600B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592D1B32044600B7CFEB /* CJRender.swift */; };
-		AEF059431B32044600B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592E1B32044600B7CFEB /* CJTemplate.swift */; };
-		AEF059441B32044600B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0592E1B32044600B7CFEB /* CJTemplate.swift */; };
+		AEF059761B3218C300B7CFEB /* CJCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596B1B3218C300B7CFEB /* CJCollection.swift */; };
+		AEF059771B3218C300B7CFEB /* CJCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596B1B3218C300B7CFEB /* CJCollection.swift */; };
+		AEF059781B3218C300B7CFEB /* CJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596C1B3218C300B7CFEB /* CJData.swift */; };
+		AEF059791B3218C300B7CFEB /* CJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596C1B3218C300B7CFEB /* CJData.swift */; };
+		AEF0597A1B3218C300B7CFEB /* CJDataElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596D1B3218C300B7CFEB /* CJDataElem.swift */; };
+		AEF0597B1B3218C300B7CFEB /* CJDataElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596D1B3218C300B7CFEB /* CJDataElem.swift */; };
+		AEF0597C1B3218C300B7CFEB /* CJError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596E1B3218C300B7CFEB /* CJError.swift */; };
+		AEF0597D1B3218C300B7CFEB /* CJError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596E1B3218C300B7CFEB /* CJError.swift */; };
+		AEF0597E1B3218C300B7CFEB /* CJItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596F1B3218C300B7CFEB /* CJItem.swift */; };
+		AEF0597F1B3218C300B7CFEB /* CJItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596F1B3218C300B7CFEB /* CJItem.swift */; };
+		AEF059801B3218C300B7CFEB /* CJLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059701B3218C300B7CFEB /* CJLink.swift */; };
+		AEF059811B3218C300B7CFEB /* CJLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059701B3218C300B7CFEB /* CJLink.swift */; };
+		AEF059821B3218C300B7CFEB /* CJLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059711B3218C300B7CFEB /* CJLinks.swift */; };
+		AEF059831B3218C300B7CFEB /* CJLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059711B3218C300B7CFEB /* CJLinks.swift */; };
+		AEF059841B3218C300B7CFEB /* CJQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059721B3218C300B7CFEB /* CJQueries.swift */; };
+		AEF059851B3218C300B7CFEB /* CJQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059721B3218C300B7CFEB /* CJQueries.swift */; };
+		AEF059861B3218C300B7CFEB /* CJQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059731B3218C300B7CFEB /* CJQuery.swift */; };
+		AEF059871B3218C300B7CFEB /* CJQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059731B3218C300B7CFEB /* CJQuery.swift */; };
+		AEF059881B3218C300B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059741B3218C300B7CFEB /* CJRender.swift */; };
+		AEF059891B3218C300B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059741B3218C300B7CFEB /* CJRender.swift */; };
+		AEF0598A1B3218C300B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059751B3218C300B7CFEB /* CJTemplate.swift */; };
+		AEF0598B1B3218C300B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059751B3218C300B7CFEB /* CJTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,17 +49,17 @@
 		AEF059131B3201F700B7CFEB /* SwiftCJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF059191B3201F700B7CFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEF0591A1B3201F700B7CFEB /* SwiftCJTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCJTests.swift; sourceTree = "<group>"; };
-		AEF059241B32044600B7CFEB /* CJCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJCollection.swift; path = "../../SwiftCJ-src/SwiftCJ/CJCollection.swift"; sourceTree = "<group>"; };
-		AEF059251B32044600B7CFEB /* CJData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJData.swift; path = "../../SwiftCJ-src/SwiftCJ/CJData.swift"; sourceTree = "<group>"; };
-		AEF059261B32044600B7CFEB /* CJDataElem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJDataElem.swift; path = "../../SwiftCJ-src/SwiftCJ/CJDataElem.swift"; sourceTree = "<group>"; };
-		AEF059271B32044600B7CFEB /* CJError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJError.swift; path = "../../SwiftCJ-src/SwiftCJ/CJError.swift"; sourceTree = "<group>"; };
-		AEF059281B32044600B7CFEB /* CJItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJItem.swift; path = "../../SwiftCJ-src/SwiftCJ/CJItem.swift"; sourceTree = "<group>"; };
-		AEF059291B32044600B7CFEB /* CJLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJLink.swift; path = "../../SwiftCJ-src/SwiftCJ/CJLink.swift"; sourceTree = "<group>"; };
-		AEF0592A1B32044600B7CFEB /* CJLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJLinks.swift; path = "../../SwiftCJ-src/SwiftCJ/CJLinks.swift"; sourceTree = "<group>"; };
-		AEF0592B1B32044600B7CFEB /* CJQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJQueries.swift; path = "../../SwiftCJ-src/SwiftCJ/CJQueries.swift"; sourceTree = "<group>"; };
-		AEF0592C1B32044600B7CFEB /* CJQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJQuery.swift; path = "../../SwiftCJ-src/SwiftCJ/CJQuery.swift"; sourceTree = "<group>"; };
-		AEF0592D1B32044600B7CFEB /* CJRender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJRender.swift; path = "../../SwiftCJ-src/SwiftCJ/CJRender.swift"; sourceTree = "<group>"; };
-		AEF0592E1B32044600B7CFEB /* CJTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CJTemplate.swift; path = "../../SwiftCJ-src/SwiftCJ/CJTemplate.swift"; sourceTree = "<group>"; };
+		AEF0596B1B3218C300B7CFEB /* CJCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJCollection.swift; sourceTree = "<group>"; };
+		AEF0596C1B3218C300B7CFEB /* CJData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJData.swift; sourceTree = "<group>"; };
+		AEF0596D1B3218C300B7CFEB /* CJDataElem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJDataElem.swift; sourceTree = "<group>"; };
+		AEF0596E1B3218C300B7CFEB /* CJError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJError.swift; sourceTree = "<group>"; };
+		AEF0596F1B3218C300B7CFEB /* CJItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJItem.swift; sourceTree = "<group>"; };
+		AEF059701B3218C300B7CFEB /* CJLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJLink.swift; sourceTree = "<group>"; };
+		AEF059711B3218C300B7CFEB /* CJLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJLinks.swift; sourceTree = "<group>"; };
+		AEF059721B3218C300B7CFEB /* CJQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJQueries.swift; sourceTree = "<group>"; };
+		AEF059731B3218C300B7CFEB /* CJQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJQuery.swift; sourceTree = "<group>"; };
+		AEF059741B3218C300B7CFEB /* CJRender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJRender.swift; sourceTree = "<group>"; };
+		AEF059751B3218C300B7CFEB /* CJTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,17 +102,17 @@
 		AEF0590A1B3201F700B7CFEB /* SwiftCJ */ = {
 			isa = PBXGroup;
 			children = (
-				AEF059241B32044600B7CFEB /* CJCollection.swift */,
-				AEF059251B32044600B7CFEB /* CJData.swift */,
-				AEF059261B32044600B7CFEB /* CJDataElem.swift */,
-				AEF059271B32044600B7CFEB /* CJError.swift */,
-				AEF059281B32044600B7CFEB /* CJItem.swift */,
-				AEF059291B32044600B7CFEB /* CJLink.swift */,
-				AEF0592A1B32044600B7CFEB /* CJLinks.swift */,
-				AEF0592B1B32044600B7CFEB /* CJQueries.swift */,
-				AEF0592C1B32044600B7CFEB /* CJQuery.swift */,
-				AEF0592D1B32044600B7CFEB /* CJRender.swift */,
-				AEF0592E1B32044600B7CFEB /* CJTemplate.swift */,
+				AEF0596B1B3218C300B7CFEB /* CJCollection.swift */,
+				AEF0596C1B3218C300B7CFEB /* CJData.swift */,
+				AEF0596D1B3218C300B7CFEB /* CJDataElem.swift */,
+				AEF0596E1B3218C300B7CFEB /* CJError.swift */,
+				AEF0596F1B3218C300B7CFEB /* CJItem.swift */,
+				AEF059701B3218C300B7CFEB /* CJLink.swift */,
+				AEF059711B3218C300B7CFEB /* CJLinks.swift */,
+				AEF059721B3218C300B7CFEB /* CJQueries.swift */,
+				AEF059731B3218C300B7CFEB /* CJQuery.swift */,
+				AEF059741B3218C300B7CFEB /* CJRender.swift */,
+				AEF059751B3218C300B7CFEB /* CJTemplate.swift */,
 				AEF0590B1B3201F700B7CFEB /* Supporting Files */,
 			);
 			path = SwiftCJ;
@@ -249,17 +249,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF059431B32044600B7CFEB /* CJTemplate.swift in Sources */,
-				AEF059331B32044600B7CFEB /* CJDataElem.swift in Sources */,
-				AEF059371B32044600B7CFEB /* CJItem.swift in Sources */,
-				AEF059411B32044600B7CFEB /* CJRender.swift in Sources */,
-				AEF059391B32044600B7CFEB /* CJLink.swift in Sources */,
-				AEF0593F1B32044600B7CFEB /* CJQuery.swift in Sources */,
-				AEF059311B32044600B7CFEB /* CJData.swift in Sources */,
-				AEF0592F1B32044600B7CFEB /* CJCollection.swift in Sources */,
-				AEF0593D1B32044600B7CFEB /* CJQueries.swift in Sources */,
-				AEF059351B32044600B7CFEB /* CJError.swift in Sources */,
-				AEF0593B1B32044600B7CFEB /* CJLinks.swift in Sources */,
+				AEF0598A1B3218C300B7CFEB /* CJTemplate.swift in Sources */,
+				AEF0597A1B3218C300B7CFEB /* CJDataElem.swift in Sources */,
+				AEF0597E1B3218C300B7CFEB /* CJItem.swift in Sources */,
+				AEF059881B3218C300B7CFEB /* CJRender.swift in Sources */,
+				AEF059801B3218C300B7CFEB /* CJLink.swift in Sources */,
+				AEF059861B3218C300B7CFEB /* CJQuery.swift in Sources */,
+				AEF059781B3218C300B7CFEB /* CJData.swift in Sources */,
+				AEF059761B3218C300B7CFEB /* CJCollection.swift in Sources */,
+				AEF059841B3218C300B7CFEB /* CJQueries.swift in Sources */,
+				AEF0597C1B3218C300B7CFEB /* CJError.swift in Sources */,
+				AEF059821B3218C300B7CFEB /* CJLinks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,18 +267,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF059301B32044600B7CFEB /* CJCollection.swift in Sources */,
-				AEF0593A1B32044600B7CFEB /* CJLink.swift in Sources */,
-				AEF059361B32044600B7CFEB /* CJError.swift in Sources */,
-				AEF059401B32044600B7CFEB /* CJQuery.swift in Sources */,
-				AEF059341B32044600B7CFEB /* CJDataElem.swift in Sources */,
-				AEF059321B32044600B7CFEB /* CJData.swift in Sources */,
+				AEF059771B3218C300B7CFEB /* CJCollection.swift in Sources */,
+				AEF059811B3218C300B7CFEB /* CJLink.swift in Sources */,
+				AEF0597D1B3218C300B7CFEB /* CJError.swift in Sources */,
+				AEF059871B3218C300B7CFEB /* CJQuery.swift in Sources */,
+				AEF0597B1B3218C300B7CFEB /* CJDataElem.swift in Sources */,
+				AEF059791B3218C300B7CFEB /* CJData.swift in Sources */,
 				AEF0591B1B3201F700B7CFEB /* SwiftCJTests.swift in Sources */,
-				AEF0593C1B32044600B7CFEB /* CJLinks.swift in Sources */,
-				AEF059441B32044600B7CFEB /* CJTemplate.swift in Sources */,
-				AEF0593E1B32044600B7CFEB /* CJQueries.swift in Sources */,
-				AEF059421B32044600B7CFEB /* CJRender.swift in Sources */,
-				AEF059381B32044600B7CFEB /* CJItem.swift in Sources */,
+				AEF059831B3218C300B7CFEB /* CJLinks.swift in Sources */,
+				AEF0598B1B3218C300B7CFEB /* CJTemplate.swift in Sources */,
+				AEF059851B3218C300B7CFEB /* CJQueries.swift in Sources */,
+				AEF059891B3218C300B7CFEB /* CJRender.swift in Sources */,
+				AEF0597F1B3218C300B7CFEB /* CJItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
