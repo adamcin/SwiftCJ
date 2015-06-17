@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files = 'SwiftCJ/**/*'
+  s.source_files = 'SwiftCJ/**/*.swift'
 
   s.frameworks = 'Foundation'
 end

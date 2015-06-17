@@ -1,9 +1,0 @@
-source 'https://github.com/adamcin/CocoaPods-Specs.git'
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
-
-
-target 'SwiftCJ_Tests', :exclusive => true do
-  pod "SwiftCJ", :path => "./"
-
-end
