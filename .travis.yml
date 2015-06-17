@@ -8,13 +8,16 @@ addons:
   ssh_known_hosts: github.com
 
 cache: cocoapods
-podfile: Example/Podfile
+podfile: Podfile
 before_install:
   - gem install cocoapods -v '0.37.2' # Since Travis is not always on latest version
-  - pod install --project-directory=Example
+  - brew install carthage
+  - carthage checkout
+  - carthage build
+  - pod install
 script:
-  - xctool clean build -workspace Example/SwiftCJ.xcworkspace -scheme SwiftCJ-Example -destination 'platform=iOS Simulator,name=iPhone 6'
-  - xctool test -workspace Example/SwiftCJ.xcworkspace -scheme SwiftCJ-Example  -destination 'platform=iOS Simulator,name=iPhone 6' -sdk iphonesimulator
+  - xctool clean build -workspace SwiftCJ.xcworkspace -scheme SwiftCJ-Example -destination 'platform=iOS Simulator,name=iPhone 6'
+  - xctool test -workspace SwiftCJ.xcworkspace -scheme SwiftCJ-Example -destination 'platform=iOS Simulator,name=iPhone 6' -sdk iphonesimulator
   - pod lib lint --quick
 after_success:
   - openssl aes-256-cbc -K $encrypted_e59dc42b1286_key -iv $encrypted_e59dc42b1286_iv -in .travis/deploy_key.pem.enc -out .travis/deploy_key.pem -d

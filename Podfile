@@ -4,6 +4,6 @@ use_frameworks!
 
 
 target 'SwiftCJ_Tests', :exclusive => true do
-  pod "SwiftCJ", :path => "../"
+  pod "SwiftCJ", :path => "./"
 
 end
