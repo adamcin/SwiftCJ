@@ -10,27 +10,17 @@
 		AEF059141B3201F700B7CFEB /* SwiftCJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF059081B3201F700B7CFEB /* SwiftCJ.framework */; };
 		AEF0591B1B3201F700B7CFEB /* SwiftCJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0591A1B3201F700B7CFEB /* SwiftCJTests.swift */; };
 		AEF059761B3218C300B7CFEB /* CJCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596B1B3218C300B7CFEB /* CJCollection.swift */; };
-		AEF059771B3218C300B7CFEB /* CJCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596B1B3218C300B7CFEB /* CJCollection.swift */; };
 		AEF059781B3218C300B7CFEB /* CJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596C1B3218C300B7CFEB /* CJData.swift */; };
-		AEF059791B3218C300B7CFEB /* CJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596C1B3218C300B7CFEB /* CJData.swift */; };
 		AEF0597A1B3218C300B7CFEB /* CJDataElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596D1B3218C300B7CFEB /* CJDataElem.swift */; };
-		AEF0597B1B3218C300B7CFEB /* CJDataElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596D1B3218C300B7CFEB /* CJDataElem.swift */; };
 		AEF0597C1B3218C300B7CFEB /* CJError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596E1B3218C300B7CFEB /* CJError.swift */; };
-		AEF0597D1B3218C300B7CFEB /* CJError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596E1B3218C300B7CFEB /* CJError.swift */; };
 		AEF0597E1B3218C300B7CFEB /* CJItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596F1B3218C300B7CFEB /* CJItem.swift */; };
-		AEF0597F1B3218C300B7CFEB /* CJItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596F1B3218C300B7CFEB /* CJItem.swift */; };
 		AEF059801B3218C300B7CFEB /* CJLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059701B3218C300B7CFEB /* CJLink.swift */; };
-		AEF059811B3218C300B7CFEB /* CJLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059701B3218C300B7CFEB /* CJLink.swift */; };
 		AEF059821B3218C300B7CFEB /* CJLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059711B3218C300B7CFEB /* CJLinks.swift */; };
-		AEF059831B3218C300B7CFEB /* CJLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059711B3218C300B7CFEB /* CJLinks.swift */; };
 		AEF059841B3218C300B7CFEB /* CJQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059721B3218C300B7CFEB /* CJQueries.swift */; };
-		AEF059851B3218C300B7CFEB /* CJQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059721B3218C300B7CFEB /* CJQueries.swift */; };
 		AEF059861B3218C300B7CFEB /* CJQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059731B3218C300B7CFEB /* CJQuery.swift */; };
-		AEF059871B3218C300B7CFEB /* CJQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059731B3218C300B7CFEB /* CJQuery.swift */; };
 		AEF059881B3218C300B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059741B3218C300B7CFEB /* CJRender.swift */; };
-		AEF059891B3218C300B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059741B3218C300B7CFEB /* CJRender.swift */; };
 		AEF0598A1B3218C300B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059751B3218C300B7CFEB /* CJTemplate.swift */; };
-		AEF0598B1B3218C300B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059751B3218C300B7CFEB /* CJTemplate.swift */; };
+		AEF0598D1B32201600B7CFEB /* SwiftCJ.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF059081B3201F700B7CFEB /* SwiftCJ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +32,19 @@
 			remoteInfo = SwiftCJ;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEF0598C1B321FF800B7CFEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEF0598D1B32201600B7CFEB /* SwiftCJ.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AEF059081B3201F700B7CFEB /* SwiftCJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEF059211B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJTests" */;
 			buildPhases = (
+				AEF0598C1B321FF800B7CFEB /* CopyFiles */,
 				AEF0590F1B3201F700B7CFEB /* Sources */,
 				AEF059101B3201F700B7CFEB /* Frameworks */,
 				AEF059111B3201F700B7CFEB /* Resources */,
@@ -267,18 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF059771B3218C300B7CFEB /* CJCollection.swift in Sources */,
-				AEF059811B3218C300B7CFEB /* CJLink.swift in Sources */,
-				AEF0597D1B3218C300B7CFEB /* CJError.swift in Sources */,
-				AEF059871B3218C300B7CFEB /* CJQuery.swift in Sources */,
-				AEF0597B1B3218C300B7CFEB /* CJDataElem.swift in Sources */,
-				AEF059791B3218C300B7CFEB /* CJData.swift in Sources */,
 				AEF0591B1B3201F700B7CFEB /* SwiftCJTests.swift in Sources */,
-				AEF059831B3218C300B7CFEB /* CJLinks.swift in Sources */,
-				AEF0598B1B3218C300B7CFEB /* CJTemplate.swift in Sources */,
-				AEF059851B3218C300B7CFEB /* CJQueries.swift in Sources */,
-				AEF059891B3218C300B7CFEB /* CJRender.swift in Sources */,
-				AEF0597F1B3218C300B7CFEB /* CJItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

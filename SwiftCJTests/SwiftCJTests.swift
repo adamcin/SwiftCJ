@@ -1,4 +1,4 @@
-
+import SwiftCJ
 import XCTest
 
 class SwiftCJTests: XCTestCase {
