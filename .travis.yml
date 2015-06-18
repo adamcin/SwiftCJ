@@ -2,6 +2,7 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
+# - xctool clean build test -project SwiftCJ.xcodeproj -scheme SwiftCJ-Mac -destination 'platform=iOS Simulator,name=iPhone 6' -sdk iphonesimulator
 language: objective-c
 osx_image: beta-xcode6.3
 addons:
@@ -13,7 +14,8 @@ before_install:
   - carthage bootstrap
   - carthage build
 script:
-  - xctool clean build test -project SwiftCJ.xcodeproj -scheme SwiftCJ -destination 'platform=iOS Simulator,name=iPhone 6' -sdk iphonesimulator
+  - xcodebuild -project SwiftCJ.xcodeproj -scheme SwiftCJ-iOS clean test
+  - xcodebuild -project SwiftCJ.xcodeproj -scheme SwiftCJ-Mac clean test
   - pod lib lint --quick
 after_success:
   - openssl aes-256-cbc -K $encrypted_e59dc42b1286_key -iv $encrypted_e59dc42b1286_iv -in .travis/deploy_key.pem.enc -out .travis/deploy_key.pem -d

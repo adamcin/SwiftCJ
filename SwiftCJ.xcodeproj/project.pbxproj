@@ -21,6 +21,19 @@
 		AEF059881B3218C300B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059741B3218C300B7CFEB /* CJRender.swift */; };
 		AEF0598A1B3218C300B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059751B3218C300B7CFEB /* CJTemplate.swift */; };
 		AEF0598D1B32201600B7CFEB /* SwiftCJ.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEF059081B3201F700B7CFEB /* SwiftCJ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEF059D01B33348400B7CFEB /* SwiftCJ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF059C51B33348300B7CFEB /* SwiftCJ.framework */; };
+		AEF059DE1B33349200B7CFEB /* CJCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596B1B3218C300B7CFEB /* CJCollection.swift */; };
+		AEF059DF1B33349200B7CFEB /* CJData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596C1B3218C300B7CFEB /* CJData.swift */; };
+		AEF059E01B33349200B7CFEB /* CJDataElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596D1B3218C300B7CFEB /* CJDataElem.swift */; };
+		AEF059E11B33349200B7CFEB /* CJError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596E1B3218C300B7CFEB /* CJError.swift */; };
+		AEF059E21B33349200B7CFEB /* CJItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0596F1B3218C300B7CFEB /* CJItem.swift */; };
+		AEF059E31B33349200B7CFEB /* CJLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059701B3218C300B7CFEB /* CJLink.swift */; };
+		AEF059E41B33349200B7CFEB /* CJLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059711B3218C300B7CFEB /* CJLinks.swift */; };
+		AEF059E51B33349200B7CFEB /* CJQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059721B3218C300B7CFEB /* CJQueries.swift */; };
+		AEF059E61B33349200B7CFEB /* CJQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059731B3218C300B7CFEB /* CJQuery.swift */; };
+		AEF059E71B33349200B7CFEB /* CJRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059741B3218C300B7CFEB /* CJRender.swift */; };
+		AEF059E81B33349200B7CFEB /* CJTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF059751B3218C300B7CFEB /* CJTemplate.swift */; };
+		AEF059E91B33349F00B7CFEB /* SwiftCJTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0591A1B3201F700B7CFEB /* SwiftCJTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +43,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = AEF059071B3201F700B7CFEB;
 			remoteInfo = SwiftCJ;
+		};
+		AEF059D11B33348400B7CFEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF058FF1B3201F700B7CFEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF059C41B33348300B7CFEB;
+			remoteInfo = "SwiftCJ-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,7 +69,7 @@
 /* Begin PBXFileReference section */
 		AEF059081B3201F700B7CFEB /* SwiftCJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF0590C1B3201F700B7CFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEF059131B3201F700B7CFEB /* SwiftCJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF059131B3201F700B7CFEB /* SwiftCJ-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftCJ-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF059191B3201F700B7CFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEF0591A1B3201F700B7CFEB /* SwiftCJTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCJTests.swift; sourceTree = "<group>"; };
 		AEF0596B1B3218C300B7CFEB /* CJCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJCollection.swift; sourceTree = "<group>"; };
@@ -63,6 +83,8 @@
 		AEF059731B3218C300B7CFEB /* CJQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJQuery.swift; sourceTree = "<group>"; };
 		AEF059741B3218C300B7CFEB /* CJRender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJRender.swift; sourceTree = "<group>"; };
 		AEF059751B3218C300B7CFEB /* CJTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CJTemplate.swift; sourceTree = "<group>"; };
+		AEF059C51B33348300B7CFEB /* SwiftCJ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCJ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF059CF1B33348400B7CFEB /* SwiftCJ-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftCJ-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF059141B3201F700B7CFEB /* SwiftCJ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF059C11B33348300B7CFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF059CC1B33348400B7CFEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF059D01B33348400B7CFEB /* SwiftCJ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				AEF059081B3201F700B7CFEB /* SwiftCJ.framework */,
-				AEF059131B3201F700B7CFEB /* SwiftCJTests.xctest */,
+				AEF059131B3201F700B7CFEB /* SwiftCJ-iOSTests.xctest */,
+				AEF059C51B33348300B7CFEB /* SwiftCJ.framework */,
+				AEF059CF1B33348400B7CFEB /* SwiftCJ-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,12 +195,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEF059C21B33348300B7CFEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AEF059071B3201F700B7CFEB /* SwiftCJ */ = {
+		AEF059071B3201F700B7CFEB /* SwiftCJ-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEF0591E1B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ" */;
+			buildConfigurationList = AEF0591E1B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-iOS" */;
 			buildPhases = (
 				AEF059031B3201F700B7CFEB /* Sources */,
 				AEF059041B3201F700B7CFEB /* Frameworks */,
@@ -172,14 +218,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftCJ;
+			name = "SwiftCJ-iOS";
 			productName = SwiftCJ;
 			productReference = AEF059081B3201F700B7CFEB /* SwiftCJ.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AEF059121B3201F700B7CFEB /* SwiftCJTests */ = {
+		AEF059121B3201F700B7CFEB /* SwiftCJ-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEF059211B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJTests" */;
+			buildConfigurationList = AEF059211B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-iOSTests" */;
 			buildPhases = (
 				AEF0598C1B321FF800B7CFEB /* CopyFiles */,
 				AEF0590F1B3201F700B7CFEB /* Sources */,
@@ -191,9 +237,45 @@
 			dependencies = (
 				AEF059161B3201F700B7CFEB /* PBXTargetDependency */,
 			);
-			name = SwiftCJTests;
+			name = "SwiftCJ-iOSTests";
 			productName = SwiftCJTests;
-			productReference = AEF059131B3201F700B7CFEB /* SwiftCJTests.xctest */;
+			productReference = AEF059131B3201F700B7CFEB /* SwiftCJ-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF059C41B33348300B7CFEB /* SwiftCJ-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF059D81B33348400B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-Mac" */;
+			buildPhases = (
+				AEF059C01B33348300B7CFEB /* Sources */,
+				AEF059C11B33348300B7CFEB /* Frameworks */,
+				AEF059C21B33348300B7CFEB /* Headers */,
+				AEF059C31B33348300B7CFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftCJ-Mac";
+			productName = "SwiftCJ-Mac";
+			productReference = AEF059C51B33348300B7CFEB /* SwiftCJ.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEF059CE1B33348400B7CFEB /* SwiftCJ-MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF059DB1B33348400B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-MacTests" */;
+			buildPhases = (
+				AEF059CB1B33348400B7CFEB /* Sources */,
+				AEF059CC1B33348400B7CFEB /* Frameworks */,
+				AEF059CD1B33348400B7CFEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF059D21B33348400B7CFEB /* PBXTargetDependency */,
+			);
+			name = "SwiftCJ-MacTests";
+			productName = "SwiftCJ-MacTests";
+			productReference = AEF059CF1B33348400B7CFEB /* SwiftCJ-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,6 +293,12 @@
 					AEF059121B3201F700B7CFEB = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
+					AEF059C41B33348300B7CFEB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					AEF059CE1B33348400B7CFEB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
 				};
 			};
 			buildConfigurationList = AEF059021B3201F700B7CFEB /* Build configuration list for PBXProject "SwiftCJ" */;
@@ -225,8 +313,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEF059071B3201F700B7CFEB /* SwiftCJ */,
-				AEF059121B3201F700B7CFEB /* SwiftCJTests */,
+				AEF059071B3201F700B7CFEB /* SwiftCJ-iOS */,
+				AEF059121B3201F700B7CFEB /* SwiftCJ-iOSTests */,
+				AEF059C41B33348300B7CFEB /* SwiftCJ-Mac */,
+				AEF059CE1B33348400B7CFEB /* SwiftCJ-MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +330,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AEF059111B3201F700B7CFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF059C31B33348300B7CFEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF059CD1B33348400B7CFEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,13 +379,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AEF059C01B33348300B7CFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF059E81B33349200B7CFEB /* CJTemplate.swift in Sources */,
+				AEF059E01B33349200B7CFEB /* CJDataElem.swift in Sources */,
+				AEF059E21B33349200B7CFEB /* CJItem.swift in Sources */,
+				AEF059E71B33349200B7CFEB /* CJRender.swift in Sources */,
+				AEF059E31B33349200B7CFEB /* CJLink.swift in Sources */,
+				AEF059E61B33349200B7CFEB /* CJQuery.swift in Sources */,
+				AEF059DF1B33349200B7CFEB /* CJData.swift in Sources */,
+				AEF059DE1B33349200B7CFEB /* CJCollection.swift in Sources */,
+				AEF059E51B33349200B7CFEB /* CJQueries.swift in Sources */,
+				AEF059E11B33349200B7CFEB /* CJError.swift in Sources */,
+				AEF059E41B33349200B7CFEB /* CJLinks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF059CB1B33348400B7CFEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF059E91B33349F00B7CFEB /* SwiftCJTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		AEF059161B3201F700B7CFEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AEF059071B3201F700B7CFEB /* SwiftCJ */;
+			target = AEF059071B3201F700B7CFEB /* SwiftCJ-iOS */;
 			targetProxy = AEF059151B3201F700B7CFEB /* PBXContainerItemProxy */;
+		};
+		AEF059D21B33348400B7CFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF059C41B33348300B7CFEB /* SwiftCJ-Mac */;
+			targetProxy = AEF059D11B33348400B7CFEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -323,9 +458,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SwiftCJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,8 +502,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SwiftCJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -382,10 +521,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftCJ/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftCJ;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -397,10 +536,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftCJ/Info.plist;
+				INFOPLIST_FILE = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftCJ;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -435,6 +574,86 @@
 			};
 			name = Release;
 		};
+		AEF059D91B33348400B7CFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = SwiftCJ;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AEF059DA1B33348400B7CFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = SwiftCJ;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AEF059DC1B33348400B7CFEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AEF059DD1B33348400B7CFEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCJTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,7 +666,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEF0591E1B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ" */ = {
+		AEF0591E1B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEF0591F1B3201F700B7CFEB /* Debug */,
@@ -456,7 +675,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEF059211B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJTests" */ = {
+		AEF059211B3201F700B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEF059221B3201F700B7CFEB /* Debug */,
@@ -464,6 +683,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		AEF059D81B33348400B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF059D91B33348400B7CFEB /* Debug */,
+				AEF059DA1B33348400B7CFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEF059DB1B33348400B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF059DC1B33348400B7CFEB /* Debug */,
+				AEF059DD1B33348400B7CFEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
