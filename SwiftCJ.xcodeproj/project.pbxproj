@@ -284,6 +284,7 @@
 		AEF058FF1B3201F700B7CFEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Mark Adamcin";
 				TargetAttributes = {
@@ -695,6 +696,7 @@
 				AEF059DA1B33348400B7CFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEF059DB1B33348400B7CFEB /* Build configuration list for PBXNativeTarget "SwiftCJ-MacTests" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +705,7 @@
 				AEF059DD1B33348400B7CFEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

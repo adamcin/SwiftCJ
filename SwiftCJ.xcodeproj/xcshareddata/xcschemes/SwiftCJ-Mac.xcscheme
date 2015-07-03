@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AEF059C41B33348300B7CFEB"
-               BuildableName = "SwiftCJ-Mac.framework"
+               BuildableName = "SwiftCJ.framework"
                BlueprintName = "SwiftCJ-Mac"
                ReferencedContainer = "container:SwiftCJ.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEF059C41B33348300B7CFEB"
-            BuildableName = "SwiftCJ-Mac.framework"
+            BuildableName = "SwiftCJ.framework"
             BlueprintName = "SwiftCJ-Mac"
             ReferencedContainer = "container:SwiftCJ.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEF059C41B33348300B7CFEB"
-            BuildableName = "SwiftCJ-Mac.framework"
+            BuildableName = "SwiftCJ.framework"
             BlueprintName = "SwiftCJ-Mac"
             ReferencedContainer = "container:SwiftCJ.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AEF059C41B33348300B7CFEB"
-            BuildableName = "SwiftCJ-Mac.framework"
+            BuildableName = "SwiftCJ.framework"
             BlueprintName = "SwiftCJ-Mac"
             ReferencedContainer = "container:SwiftCJ.xcodeproj">
          </BuildableReference>
